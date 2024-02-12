@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  padding: 0px 90px;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+.body-cont {
+  display: flex;
+  position: absolute;
+  width: 87.2%;
+  height: 90%;
+}
+.leftbox {
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+.rightbox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/Engaging_with_technology-scaled.webp);
+  background-size: cover;
+}
+h2 {
+  font-size: x-large;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.second li {
+  display: inline-block;
+}
+.second a {
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chat {
+  border: 1px solid black;
+  padding: 4px 20px;
+  cursor: pointer;
+  margin-top: 1.3rem;
+}
+.mid {
+  margin-top: 1rem;
+}
+.text {
+  margin-left: 2.1rem;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.span {
+  background-color: rgb(29, 29, 235);
+  border-radius: 20px;
+  padding: 4px 20px;
+  color: white;
+  font-size: large;
+  height: 2rem;
+  width: 6rem;
+  margin-left: 11rem;
+  margin-top: -2.22rem;
+  text-align: center;
+}
+
+.text {
+  margin-left: 2rem;
+}
+
+.ajay {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 2.1rem;
+  margin-top: 0.3rem;
+}
+.pera {
+  margin-top: 20px;
+  margin-left: 2.1rem;
+}
+.hire {
+  background-color: tomato;
+  color: white;
+  height: 2rem;
+  width: 5rem;
+  margin-top: 20px;
+  border: none;
+  margin-left: 2.1rem;
+}
+
+.project {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-left: 130px;
+  margin-top: -32px;
+}
+
+.arrow::before {
+  content: "\2197";
+  font-size: 20px;
+  rotate: 30deg;
+}
+.arrow {
+  transform: rotate(50deg);
+}
+.plus {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: larger;
+
+  margin-left: 2.1rem;
+}
+.pera1 {
+  margin: 8px;
+  margin-left: 2.1rem;
+  font-weight: bolder;
+}
+.count {
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 2.1rem;
+  margin-top: 13px;
+}
+.project1 {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-left: 2.1rem;
+}
+.container {
+  height: 11.4rem;
+  width: 38.29rem;
+  background-color: rgb(50, 47, 47);
+  margin-top: 32.88%;
+  display: flex;
+}
+.content {
+  width: 50%;
+  color: white;
+  margin-left: 2.1rem;
+  margin-top: 50px;
+  overflow: hidden;
+}
+button {
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 5.2rem;
+  background-color: yellow;
+}
+.content1 {
+  color: white;
+  margin-top: 2.9rem;
+  display: flex;
+
+  width: 50%;
+}
+
+hr {
+  border: 0.5px solid rgb(22, 18, 18);
+  margin-top: 0.5rem;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  background-image: url(/download.png);
+  background-size: cover;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  border-radius: 50%;
+}
+.box1 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  background-image: url(/diamond_6900055.png);
+  background-size: cover;
+  margin-top: -20rem;
+  margin-left: 13rem;
+  border-radius: 50%;
+}
+.box2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  margin-top: 20rem;
+  margin-left: -1rem;
+  border-radius: 50%;
+  position: relative;
+}
+.box2 p {
+  color: rgb(163, 11, 163);
+  transform: rotate(180deg);
+  position: absolute;
+  font-size: x-large;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-weight: 900;
+}
+input {
+  height: 2rem;
+  width: 14rem;
+  margin-top: 30rem;
+  margin-left: -23rem;
+  text-align: center;
+}
+.smallbox {
+  height: 2rem;
+  width: 2rem;
+  background-color: #000;
+  position: relative;
+  margin-top: -2rem;
+  margin-left: -11rem;
+}
+.arrow1::before {
+  content: "\2192";
+  font-size: 20px;
+  /* rotate: 30deg; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  margin-left: 18rem;
+  font-size: x-large;
+  margin-top: -3.5rem;
+  font-weight: bold;
+}
+.contact1 {
+  margin-left: 18rem;
+  font-size: x-large;
+  margin-top: 0.45rem;
+  font-weight: bold;
+}
